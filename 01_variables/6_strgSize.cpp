@@ -1,10 +1,19 @@
+#include <iostream>
+#include <string>
 using std::cout;
-using std::cin;
-using std::string;
 using std::endl;
+using std::string;
+
+
+
 int main() {
-   
-    cout << "int = " << sizeof(int) << endl << "short = " << sizeof(short) << endl << "long long = " << sizeof(long long) << endl << "float = " << sizeof(float) << endl << "double" << sizeof(double) << endl << "char = " << sizeof(char) << endl << "string = " << sizeof(char) << endl;
+    cout << "int = " << sizeof(int) << endl;
+    cout << "short = " << sizeof(short) << endl;
+    cout << "long long = " << sizeof(long long) << endl;
+    cout << "float = " << sizeof(float) << endl;
+    cout << "double = " << sizeof(double) << endl;
+    cout << "char = " << sizeof(char) << endl;
+    cout << "string = " << sizeof(string) << endl;
 
     return 0;
 }
